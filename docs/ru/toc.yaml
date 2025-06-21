@@ -5,6 +5,13 @@ items:
     href: about.md
   - name: Дополнительная страница
     href: page.md
+  - name: Swagger Petstore AP
+    include:
+      path: openapi
+      includers:
+        - name: openapi
+          input: Swagger Petstore API
+      mode: link
   - name: Другая страница
     href: anotherpage.md
   - name: Подраздел
